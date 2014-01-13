@@ -1,0 +1,40 @@
+{
+  "sources": {
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "sensu": {
+      "locked_version": "0.8.0"
+    },
+    "apt": {
+      "locked_version": "2.3.4"
+    },
+    "yum": {
+      "locked_version": "3.0.4"
+    },
+    "windows": {
+      "locked_version": "1.12.6"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "rabbitmq": {
+      "locked_version": "2.3.2"
+    },
+    "erlang": {
+      "locked_version": "1.4.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.2.0"
+    },
+    "yum-erlang_solutions": {
+      "locked_version": "0.1.4"
+    },
+    "redisio": {
+      "locked_version": "1.7.0"
+    },
+    "ulimit": {
+      "locked_version": "0.3.2"
+    }
+  }
+}

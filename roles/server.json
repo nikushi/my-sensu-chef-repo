@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "default_attributes": {},
+  "override_attributes": {},
+  "json_class": "Chef::Role",
+  "description": "sensu server",
+  "chef_type": "role",
+  "run_list": [
+    "sensu::default",
+    "sensu::rabbitmq",
+    "sensu::redis",
+    "sensu::server_service",
+    "sensu::api_service",
+    "sensu::dashboard_service"
+  ]
+}
